@@ -33,8 +33,7 @@ public class StepDefs {
 
 	@Given("user launched site")
 	public void user_launched_site() {
-	    // Write code here that turns the phrase above into concrete actions
-		driver.get("https://www.amazon.in");
+	driver.get("https://www.amazon.in");
 	    
 	}
 
