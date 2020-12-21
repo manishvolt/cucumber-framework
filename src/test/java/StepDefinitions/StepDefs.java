@@ -15,7 +15,7 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
 public class StepDefs {
-        // changing the code 
+        
 	WebDriver driver;
 	String ResultsTitle="Amazon.in : laptop";
 	
@@ -28,7 +28,7 @@ public class StepDefs {
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-	   
+	   //hello
 	}
 
 	@Given("user launched site")
